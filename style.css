@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-image: url(img/backgroundBody.png);
+    animation:  animatedBackground 8s linear infinite;
+    font-family: 'Lato', sans-serif;
+    color: #5e5853;
+
+  }
+
+  .home-inner{
+    background-image: url(img/BackgroundHeader.jpg);
+    
+  }
+
+  .home-inner-foreground{ 
+    background-color: rgba(0,0,0,.5) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+  .header-image img{
+    
+    display: block;
+    width: 30%;
+    position: absolute;
+    top:25%;
+    left: 35%;
+      
+  }
+
+
+@keyframes animatedBackground {
+    from {
+	    background-position: 0 0;
+	}
+	
+	to {
+		background-position: 1080px 0;
+	}
+}
+
+
+/*Navbar Start*/
+
+
+
+.navbar{
+  
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: transparent !important;
+    
+  }
+
+  .navbar button{
+    outline: none;
+  }
+
+  
+
+  .navbar #nav-arabic{
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    margin-top: -.3rem;
+  }
+
+  
+
+.navbar-nav li{
+    padding-right: 1.5rem;
+  }
+
+  .navbar-nav li a{
+    outline: none;
+  }
+
+.nav-item span{
+  font-size: 1.4rem;
+  color: rgba(255,255,255,.5) !important;
+}
+/*Navbar End*/
+
+.container{
+    margin-bottom: 9% !important;
+}
+
+
+h1{
+    font-weight: 300;
+}
+
+h5{
+    font-weight: 700;
+    color: #fcb900;
+    margin: 3.6rem auto;
+
+}
+
+.parent {
+	
+	
+	width: 90% !important;
+}
+
+.TopCover {
+	opacity: 1;
+    position: inherit;
+    width:inherit;
+	z-index: 1 !important;
+	transition-property: opacity;
+	transition: .2s linear;
+}
+
+.DownInfo {
+	display: none;
+    position: absolute;
+    width:73.7%;
+    top:0;
+    left:0;
+    margin-left: 8.5% !important;
+    margin-top: 4.5% !important;
+
+	
+}
+
+.parent:hover .TopCover {
+	opacity: .1;
+}
+
+.parent:hover .DownInfo {
+	display: inline;
+	-webkit-box-shadow: 0 0 20px -6px grey;
+	-moz-box-shadow: 0 0 20px -6px grey;
+	box-shadow: 0 0 20px -6px grey;
+}
+
+#services .margins{
+    margin: 3.6rem auto;
+    margin-left: 10% !important;
+}
+
+.liner{
+    width: 100%;
+    height: 1px;
+    background-color: #e8e9ea;
+    margin: 0 auto 2rem;
+}
+
+#work .DownInfo {
+	display: none;
+    position: inherit;
+    width:inherit;
+    
+
+	
+}
+
+#work .parent:hover .TopCover {
+	display: none;
+}
+
+#work .parent:hover .DownInfo{
+    display: inline;
+}
+
+#work .margins{
+  margin-left: 1% !important;
+
+}
+
+.parent-cl img{
+    width: 70% !important;
+    overflow: hidden;
+}
+
+#team h5{
+  margin:0 auto;
+}
+
+
+footer{
+    background-color:#1e1c1b;
+    color:white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;
+}
+
+footer h1{
+    font-size: 130%;
+}
+
+
+
+footer iframe{
+    width: 80% !important;
+    height: 70% !important;
+    border: 0;
+}
+
+
+footer img{
+    height: 5rem;
+    margin: 1.5rem 0;
+  }
+  
+  footer a{
+    
+    color:#99908a;
+    
+  }
+  
+  /*to remove*/
+  footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+  
+  }
+  
+  
+  
+  
+  footer .icon{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+  
+  }
+  
+  footer .icon:hover{
+    color: #5e5853  !important;
+  }
+
+  footer .liner{
+
+      width:72%;
+      background-color: #e8e9ea;
+      height: 1px;
+     
+
+  }
+
+  footer .container{
+    max-width:82% !important;
+    margin: 0 auto !important;
+  }
+
+  footer .link:hover{
+    color: #5e5853  !important;
+    text-decoration: none;
+
+  }
+
+
+  /*nav sidebar*/
+  .side-navigation{
+    
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 1.6em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  }
+
+  
+  
+  
+
+  .side-navigation .sep-hidden{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: inline-block;
+    line-height: 1;
+    padding: .8em 3.2em .8em .8em;
+    -webkit-transform: translateX(4em);
+    transform: translateX(4em);
+    outline: none;
+    opacity: 0;
+    transition: .3s;
+    white-space: nowrap;
+  }
+
+  .side-navigation .sep{
+    float: right;
+    color:rgba(224,225,227,1) !important;
+    font-size: 1.65rem;
+    line-height: 1;
+    margin-top: .3em;
+  }
+
+  .side-navigation .side-item:hover .sep{
+    color:rgba(224,225,227,.2) !important;
+
+  }
+
+  .side-navigation .side-item:hover .sep-hidden{
+    opacity: 1;
+    -webkit-transform: translateX(-.1em);
+    transform: translateX(-.1em)
+  }
+
+  .side-navigation a{
+    text-decoration: none;
+    outline: none;
+    color:rgba(224,225,227,1);
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+   }
+
+
+
+
+   #arabic .side-navigation {
+    list-style: none;
+    
+    position: fixed;
+    top: 50%;
+    right: 0;
+    left: 1.6em;
+
+    
+    padding: 0 89% 0 0;
+  }
+
+  #arabic .side-navigation .sep {
+   float: left;
+   
+  }
+
+  #arabic .side-navigation .sep-hidden {
+    -webkit-transform: translateX(-1em);
+    transform: translateX(-1em);
+    letter-spacing: 0px;
+
+    
+
+   }
+
+   #arabic .side-navigation .side-item:hover .sep-hidden{
+    opacity: 1;
+    -webkit-transform: translateX(4em);
+    transform: translateX(4em);
+  }
+
+
+
+
+
+  @media (max-width: 650px){
+
+
+
+    .side-navigation{
+      display: none;
+    }
+
+    .navbar{
+    font-size: .8rem; 
+  }
+
+  
+
+  .navbar #nav-arabic{
+    font-size: 1rem;
+  }
+
+  .nav-item span{
+    display: none;
+  }
+
+    
+    .navbar-nav li{
+      padding-right: 0;
+
+    }
+
+    .navbar-nav li a{
+      color: #cccccc !important;      
+    }
+
+   .parent{
+     width:100% !important;
+   }
+
+   #services .margins{
+    margin-left: 0 !important;
+  }
+
+  .DownInfo {
+  
+      width:80.5%;
+      
+      margin-left: 10% !important;
+      margin-top: 10% !important;
+  
+    
+  }
+
+  #work .margins{
+    margin-left: 25% !important ;
+  }
+
+  .header-image img{
+    width: 50%;
+    top:35%;
+    left: 28%;
+      
+  }
+
+  .navbar{
+  
+    background: rgba(105,105,105,.1) !important;
+  }
+  }
+
+
