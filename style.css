@@ -50,44 +50,23 @@ body{
 
 /*Navbar Start*/
 
-
-
-.navbar{
-  
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .9rem;
-    letter-spacing: .1rem;
-    background: transparent !important;
-    
-  }
-
-  .navbar button{
-    outline: none;
-  }
-
-  
-
-  .navbar #nav-arabic{
-    letter-spacing: 0;
-    font-size: 1.2rem;
-    margin-top: -.3rem;
-  }
-
-  
-
-.navbar-nav li{
-    padding-right: 1.5rem;
-  }
-
-  .navbar-nav li a{
-    outline: none;
-  }
-
-.nav-item span{
-  font-size: 1.4rem;
-  color: rgba(255,255,255,.5) !important;
+.lang-icon img{
+  position: absolute;
+  width: 3rem;
+  left: 1%;
+  top: 1%;
+  opacity: .7;
 }
+
+#arabic .lang-icon img{
+  left: 96%;
+}
+
+.lang-icon:hover img{
+  opacity: 1;
+}
+
+
 /*Navbar End*/
 
 .container{
@@ -360,7 +339,7 @@ footer img{
   }
 
 
-
+ 
 
 
   @media (max-width: 650px){
@@ -370,31 +349,6 @@ footer img{
     .side-navigation{
       display: none;
     }
-
-    .navbar{
-    font-size: .8rem; 
-  }
-
-  
-
-  .navbar #nav-arabic{
-    font-size: 1rem;
-  }
-
-  .nav-item span{
-    display: none;
-  }
-
-    
-    .navbar-nav li{
-      padding-right: 0;
-
-    }
-
-    .navbar-nav li a{
-      color: #cccccc !important;      
-    }
-
    .parent{
      width:100% !important;
    }
