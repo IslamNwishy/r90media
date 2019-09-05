@@ -249,14 +249,9 @@ footer img{
     opacity: .2;
   }
 
-  footer .copyright{
-    text-align: center;
+  
+  
 
-  }
-
-  footer .copyright p{
-    display: inline;
-  }
 
 
 
@@ -326,39 +321,7 @@ footer img{
 
 
 
-   #arabic .side-navigation {
-    list-style: none;
-    
-    position: fixed;
-    top: 50%;
-    right: 0;
-    left: 1.6em;
-
-    
-    padding: 0 89% 0 0;
-  }
-
-  #arabic .side-navigation .sep {
-   float: left;
-   
-  }
-
-  #arabic .side-navigation .sep-hidden {
-    -webkit-transform: translateX(-1em);
-    transform: translateX(-1em);
-    letter-spacing: 0px;
-
-    
-
-   }
-
-   #arabic .side-navigation .side-item:hover .sep-hidden{
-    opacity: 1;
-    -webkit-transform: translateX(4em);
-    transform: translateX(4em);
-  }
-
-
+  
  
 
 
@@ -376,7 +339,7 @@ footer img{
    }
 
    #services .margins{
-    margin-left: 0 !important;
+    margin-left: 10% !important;
   }
 
   .DownInfo {
@@ -391,6 +354,15 @@ footer img{
 
   #work .margins{
     margin-left: 25% !important ;
+  }
+
+  #work .DownInfo{
+    margin-left: 0 !important;
+  }
+
+  #arabic #work .margins{
+    margin-right: 25% !important;
+    margin-left: 0 !important;
   }
 
   .header-image img{
