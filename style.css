@@ -333,6 +333,38 @@ footer img{
   }
 
 
+  #arabic .side-navigation {
+    list-style: none;
+
+    position: fixed;
+    top: 50%;
+    right: 0;
+    left: 1.6em;
+
+
+    padding: 0 85% 0 0;
+  }
+
+  #arabic .side-navigation .sep {
+   float: left;
+
+  }
+
+  #arabic .side-navigation .sep-hidden {
+    -webkit-transform: translateX(-1em);
+    transform: translateX(-1em);
+    letter-spacing: 0px;
+
+
+
+   }
+
+   #arabic .side-navigation .side-item:hover .sep-hidden{
+    opacity: 1;
+    -webkit-transform: translateX(4em);
+    transform: translateX(4em);
+  }
+
   html {
     scroll-behavior: smooth;
    }
@@ -340,8 +372,6 @@ footer img{
 
 
 
-  
- 
 
 
   @media (max-width: 650px){
