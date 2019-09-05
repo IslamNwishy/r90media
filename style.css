@@ -244,6 +244,21 @@ footer img{
 
   }
 
+  footer .copyright .liner{
+    width:100%;
+    opacity: .2;
+  }
+
+  footer .copyright{
+    text-align: center;
+
+  }
+
+  footer .copyright p{
+    display: inline;
+  }
+
+
 
   /*nav sidebar*/
   .side-navigation{
