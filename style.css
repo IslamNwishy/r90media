@@ -401,6 +401,11 @@ footer img{
   #arabic .lang-icon img{
     left: 85%;
   }
+
+  footer .container{
+    max-width:88% !important;
+
+  }
   
   }
 
