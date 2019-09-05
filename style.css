@@ -233,6 +233,11 @@ footer img{
     margin: 0 auto !important;
   }
 
+  #arabic footer .container{
+    
+    text-align: right;
+  }
+
   footer .link:hover{
     color: #5e5853  !important;
     text-decoration: none;
