@@ -59,7 +59,7 @@ body{
 }
 
 #arabic .lang-icon img{
-  left: 85%;
+  left: 96%;
 }
 
 .lang-icon:hover img{
@@ -346,6 +346,8 @@ footer img{
 
 
 
+
+
     .side-navigation{
       display: none;
     }
@@ -378,10 +380,10 @@ footer img{
       
   }
 
-  .navbar{
-  
-    background: rgba(105,105,105,.1) !important;
+  #arabic .lang-icon img{
+    left: 85%;
   }
+  
   }
 
 
