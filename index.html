@@ -23,6 +23,38 @@
                    <a href="arabic.html"> <img src="img/arabic_icon.png">
                    </a>
                 </div>
+    <div class="mobile-top-bar">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+    
+                    </ul>
+    
+                </div>
+            </nav>
+        </div>
 
         <ul class="side-navigation">
             <li class="side-item" id="item1">
@@ -321,7 +353,14 @@
     <!---------Linking to Bootstrap----------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
+
+<script>
+        $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    </script>

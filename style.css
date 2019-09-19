@@ -50,10 +50,25 @@ body{
 
 /*Navbar Start*/
 
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  background: rgba(0, 0, 0, 0.1)!important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.mobile-top-bar{
+  display: none;
+}
+
 .lang-icon img{
   position: absolute;
   width: 3rem;
-  left: 1%;
+  left: 3%;
   top: 1%;
   opacity: .7;
 }
@@ -75,7 +90,7 @@ body{
 
 
 h1{
-    font-weight: 300;
+    font-weight: 700;
 }
 
 h5{
@@ -374,7 +389,14 @@ footer img{
 
 
 
-
+  .mobile-top-bar{
+    display: initial;
+  }
+  
+  .lang-icon img{
+    z-index:1100;
+    top: .5%;
+  }
 
   .side-navigation{
       display: none;
@@ -425,7 +447,7 @@ footer img{
   }
 
   #arabic .lang-icon img{
-    left: 85%;
+    left: 82%;
   }
 
   footer .container{
