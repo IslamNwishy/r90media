@@ -19,11 +19,11 @@
 
     <div id="home">
 
-            <div class="lang-icon">
-                   <a href="arabic.html"> <img src="img/arabic_icon.png">
-                   </a>
-                </div>
-    <div class="mobile-top-bar">
+        <div class="lang-icon">
+            <a href="arabic.html"> <img src="img/arabic_icon.png">
+            </a>
+        </div>
+        <div class="mobile-top-bar">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div></div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -31,6 +31,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">back to top</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about-us">About us</a>
                         </li>
@@ -49,9 +52,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
-    
+
                     </ul>
-    
+
                 </div>
             </nav>
         </div>
@@ -105,7 +108,7 @@
             </li>
         </ul>
 
-       
+
 
 
         <div class="landing">
@@ -357,10 +360,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
 
 <script>
-        $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-nav>li>a').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
-    </script>
+</script>
