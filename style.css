@@ -68,7 +68,7 @@ body{
 .lang-icon img{
   position: absolute;
   width: 3rem;
-  left: 3%;
+  left: 1%;
   top: 1%;
   opacity: .7;
 }
@@ -396,6 +396,7 @@ footer img{
   .lang-icon img{
     z-index:1100;
     top: .5%;
+    left: 3%;
   }
 
   .side-navigation{
